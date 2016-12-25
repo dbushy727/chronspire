@@ -153,7 +153,7 @@
         </a>
     </div>
 
-    {{-- <div id="subscribeModal" class="modal fade" tabindex="-1" role="dialog">
+    <div id="subscribeModal" class="modal fade" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-body">
@@ -188,5 +188,5 @@
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
-    </div><!-- /.modal --> --}}
+    </div><!-- /.modal -->
     @include('footer')
