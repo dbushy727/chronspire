@@ -30,7 +30,7 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-tops" class="indexs">
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom affix">
