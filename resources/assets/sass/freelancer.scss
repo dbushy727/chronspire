@@ -558,7 +558,7 @@ body::-moz-selection {
 .separator {
   padding: 3em;
 }
-.navbar-right {
+#mainNav .navbar-right {
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -567,6 +567,16 @@ body::-moz-selection {
   margin-bottom: 20px;
 }
 
+#subNav {
+  top: 109px;
+  background: #373737;
+  font-weight: 300;
+}
+
+.page-wrapper {
+  position: relative;
+  top: 100px;
+}
 @import 'product';
 @import 'features';
 @import 'banner';

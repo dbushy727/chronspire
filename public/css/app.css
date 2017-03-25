@@ -640,7 +640,7 @@ body::-moz-selection {
   padding: 3em;
 }
 
-.navbar-right {
+#mainNav .navbar-right {
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -648,6 +648,17 @@ body::-moz-selection {
 .navbar-toggle {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#subNav {
+  top: 109px;
+  background: #373737;
+  font-weight: 300;
+}
+
+.page-wrapper {
+  position: relative;
+  top: 100px;
 }
 
 .supporting-image {
