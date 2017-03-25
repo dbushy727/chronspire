@@ -1,7 +1,18 @@
 .banner {
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
-#packaging-banner {
-  background: url('../img/BOX_Nighttime.jpg') center fixed;
+#first-banner {
+    background: url('../images/black-skeleton-drama.jpg?w=1200') center fixed;
+    background-position-y: -100px;
+}
+
+#second-banner {
+    background: url('../images/cool-blue-drama.jpg?w=1200') center fixed;
+    background-position-y: -100px;
+}
+
+#third-banner {
+    background: url('../images/white-skeleton-drama.jpg?w=1200') center fixed;
+    background-position-y: -100px;
 }

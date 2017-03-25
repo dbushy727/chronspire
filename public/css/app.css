@@ -23,7 +23,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #578fcb;
+  color: #19a51f;
   outline: none;
 }
 
@@ -64,7 +64,7 @@ hr.star-light {
 }
 
 hr.star-light:after {
-  background-color: #578fcb;
+  background-color: #19a51f;
   color: white;
 }
 
@@ -157,7 +157,7 @@ header .intro-text .skills {
 }
 
 .navbar-custom .navbar-nav li a:hover {
-  color: #578fcb;
+  color: #19a51f;
   outline: none;
 }
 
@@ -168,14 +168,14 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #578fcb;
+  background: #19a51f;
 }
 
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #578fcb;
+  background: #19a51f;
 }
 
 .navbar-custom .navbar-toggle {
@@ -187,9 +187,9 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #578fcb;
+  background-color: #19a51f;
   color: white;
-  border-color: #578fcb;
+  border-color: #19a51f;
 }
 
 @media (min-width: 768px) {
@@ -217,7 +217,7 @@ section h2 {
 }
 
 section.success {
-  background: #578fcb;
+  background: #19a51f;
   color: white;
 }
 
@@ -232,19 +232,19 @@ section.about {
   }
 }
 
-#portfolio .portfolio-item {
+#collection .portfolio-item {
   margin: 0 0 15px;
   right: 0;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#collection .portfolio-item .portfolio-link {
   display: block;
   position: relative;
   max-width: 200px;
   margin: 0 auto;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
+#collection .portfolio-item .portfolio-link .caption {
   background: rgba(25, 165, 31, 0.7);
   position: absolute;
   width: 100%;
@@ -255,11 +255,11 @@ section.about {
   -moz-transition: all ease 0.5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#collection .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#collection .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -270,21 +270,21 @@ section.about {
   color: white;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#collection .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#collection .portfolio-item .portfolio-link .caption .caption-content h3,
+#collection .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
 }
 
-#portfolio * {
+#collection * {
   z-index: 2;
 }
 
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #collection .portfolio-item {
     margin: 0 0 30px;
   }
 }
@@ -336,7 +336,7 @@ section.about {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #578fcb;
+  color: #19a51f;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -379,7 +379,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #578fcb;
+  color: #19a51f;
   background: white;
   border: solid 2px white;
 }
@@ -433,8 +433,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-success {
   color: white;
-  background-color: #578fcb;
-  border-color: #578fcb;
+  background-color: #19a51f;
+  border-color: #19a51f;
   font-weight: 700;
 }
 
@@ -469,12 +469,12 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #578fcb;
-  border-color: #578fcb;
+  background-color: #19a51f;
+  border-color: #19a51f;
 }
 
 .btn-success .badge {
-  color: #578fcb;
+  color: #19a51f;
   background-color: white;
 }
 
@@ -640,6 +640,16 @@ body::-moz-selection {
   padding: 3em;
 }
 
+.navbar-right {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-toggle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .supporting-image {
   display: inline-block;
   width: 3em;
@@ -667,11 +677,22 @@ body::-moz-selection {
 }
 
 .banner {
-  padding: 100px 0;
+  padding: 150px 0;
 }
 
-#packaging-banner {
-  background: url("../img/BOX_Nighttime.jpg") center fixed;
+#first-banner {
+  background: url("../images/black-skeleton-drama.jpg?w=1200") center fixed;
+  background-position-y: -100px;
+}
+
+#second-banner {
+  background: url("../images/cool-blue-drama.jpg?w=1200") center fixed;
+  background-position-y: -100px;
+}
+
+#third-banner {
+  background: url("../images/white-skeleton-drama.jpg?w=1200") center fixed;
+  background-position-y: -100px;
 }
 
 .gallery-item {

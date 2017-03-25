@@ -9,47 +9,41 @@
         </div>
     </header>
 
-    <section id="portfolio">
+    <section id="collection">
         @include('portfolio')
     </section>
 
-    <section class="banner" id="packaging-banner">
+    <section class="banner" id="first-banner">
         <div class="container">
             <div class="row"></div>
         </div>
     </section>
 
-    <section>
+    <section id="features">
         @include('features')
     </section>
 
-    <section class="banner" id="packaging-banner">
+    <section class="banner" id="second-banner">
         <div class="container">
             <div class="row"></div>
         </div>
     </section>
 
-    <section>
+    <section id="box">
         @include('box')
     </section>
 
-    <section class="banner" id="packaging-banner">
+    <section class="banner" id="third-banner">
         <div class="container">
             <div class="row"></div>
         </div>
     </section>
 
-    <section>
+    <section id="gallery">
         @include('gallery')
     </section>
 
-    <section class="banner" id="packaging-banner">
-        <div class="container">
-            <div class="row"></div>
-        </div>
-    </section>
-
-    <section>
+    <section id="about">
         @include('about_us')
     </section>
 

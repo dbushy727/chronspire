@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #578fcb;
+  color: rgb(25, 165, 31);
   outline: none;
 }
 h1,
@@ -54,7 +54,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #578fcb;
+  background-color: rgb(25, 165, 31);
   color: white;
 }
 hr.star-primary {
@@ -133,7 +133,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #578fcb;
+  color: rgb(25, 165, 31);
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -142,13 +142,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #578fcb;
+  background: rgb(25, 165, 31);
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #578fcb;
+  background: rgb(25, 165, 31);
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -158,9 +158,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #578fcb;
+  background-color: rgb(25, 165, 31);
   color: white;
-  border-color: #578fcb;
+  border-color: rgb(25, 165, 31);
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -190,7 +190,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #578fcb;
+  background: rgb(25, 165, 31);
   color: white;
 }
 section.about {
@@ -205,17 +205,17 @@ section.about {
     padding-top: 75px;
   }
 }
-#portfolio .portfolio-item {
+#collection .portfolio-item {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#collection .portfolio-item .portfolio-link {
   display: block;
   position: relative;
   max-width: 200px;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
+#collection .portfolio-item .portfolio-link .caption {
   background: rgba(25, 165, 31, 0.7);
   position: absolute;
   width: 100%;
@@ -225,10 +225,10 @@ section.about {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#collection .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#collection .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -238,18 +238,18 @@ section.about {
   margin-top: -12px;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#collection .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#collection .portfolio-item .portfolio-link .caption .caption-content h3,
+#collection .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
 }
-#portfolio * {
+#collection * {
   z-index: 2;
 }
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #collection .portfolio-item {
     margin: 0 0 30px;
   }
 }
@@ -297,7 +297,7 @@ section.about {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #578fcb;
+  color: rgb(25, 165, 31);
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -331,7 +331,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #578fcb;
+  color: rgb(25, 165, 31);
   background: white;
   border: solid 2px white;
 }
@@ -379,8 +379,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #578fcb;
-  border-color: #578fcb;
+  background-color: rgb(25, 165, 31);
+  border-color: rgb(25, 165, 31);
   font-weight: 700;
 }
 .btn-success:hover,
@@ -412,11 +412,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #578fcb;
-  border-color: #578fcb;
+  background-color: rgb(25, 165, 31);
+  border-color: rgb(25, 165, 31);
 }
 .btn-success .badge {
-  color: #578fcb;
+  color: rgb(25, 165, 31);
   background-color: white;
 }
 .btn-social {
@@ -557,6 +557,14 @@ body::-moz-selection {
 }
 .separator {
   padding: 3em;
+}
+.navbar-right {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar-toggle {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @import 'product';
