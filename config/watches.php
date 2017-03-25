@@ -2,9 +2,11 @@
 
 return [
     [
-        'name' => 'Automatic GMT Dual Time (Black)',
+        'name' => 'Black Basilisk',
+        'type' => 'Automatic',
         'collection_image_path' => '/img/collection/gallery/Basilisk_Auto_Brac_Black_Front.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_Auto_Brac_Black_Front.jpg',
+        'product_images_path' => 'img/collection/automatic_black_basilisk',
         'details' => [
             [
                 'type' => 'list',
@@ -33,9 +35,11 @@ return [
         ],
     ],
     [
-        'name' => 'Automatic GMT Dual Time (Blue)',
+        'name' => 'Blue Basilisk',
+        'type' => 'Automatic',
         'collection_image_path' => '/img/collection/gallery/Basilisk_Auto_Brac_Blue_Front.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_Auto_Brac_Blue_Front.jpg',
+        'product_images_path' => 'img/collection/automatic_blue_basilisk',
         'details' => [
             [
                 'type' => 'list',
@@ -64,9 +68,11 @@ return [
         ],
     ],
     [
-        'name' => 'Automatic GMT Dual Time (White)',
+        'name' => 'Bone White Basilisk',
+        'type' => 'Automatic',
         'collection_image_path' => '/img/collection/gallery/Basilisk_Auto_Brac_White_Front.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_Auto_Brac_White_Front.jpg',
+        'product_images_path' => 'img/collection/automatic_bone_white_basilisk',
         'details' => [
             [
                 'type' => 'list',
@@ -95,9 +101,11 @@ return [
         ],
     ],
     [
-        'name' => 'Quartz Chronograph (Black)',
+        'name' => 'Black Out Basilisk',
+        'type' => 'Quartz',
         'collection_image_path' => '/img/collection/gallery/Basilisk_QZ_BR_Black_FRONT.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_QZ_BR_Black_FRONT.jpg',
+        'product_images_path' => 'img/collection/quartz_black_out_basilisk',
         'details' => [
             [
                 'type' => 'list',
@@ -126,9 +134,11 @@ return [
         ],
     ],
     [
-        'name' => 'Quartz Chronograph (Black and Blue)',
+        'name' => 'Blue Dream Basilisk',
+        'type' => 'Quartz',
         'collection_image_path' => '/img/collection/gallery/Basilisk_QZ_BR_BlackBlue_FRONT.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_QZ_BR_BlackBlue_FRONT.jpg',
+        'product_images_path' => 'img/collection/quartz_blue_dream_basilisk',
         'details' => [
             [
                 'type' => 'list',
@@ -157,9 +167,11 @@ return [
         ],
     ],
     [
-        'name' => 'Quartz Chronograph (Black and Red)',
+        'name' => 'Black Fire Basilisk',
+        'type' => 'Quartz',
         'collection_image_path' => '/img/collection/gallery/Basilisk_QZ_BR_BlackRed_FRONT.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_QZ_BR_BlackRed_FRONT.jpg',
+        'product_images_path' => 'img/collection/quartz_black_fire_basilisk',
         'details' => [
             [
                 'type' => 'list',
@@ -188,9 +200,11 @@ return [
         ],
     ],
     [
-        'name' => 'Quartz Chronograph (Blue)',
+        'name' => 'Cool Blue Basilisk',
+        'type' => 'Quartz',
         'collection_image_path' => '/img/collection/gallery/Basilisk_QZ_BR_Blue_FRONT.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_QZ_BR_Blue_FRONT.jpg',
+        'product_images_path' => 'img/collection/quartz_cool_blue_basilisk',
         'details' => [
             [
                 'type' => 'list',
@@ -219,9 +233,11 @@ return [
         ],
     ],
     [
-        'name' => 'Quartz Chronograph (Racing)',
+        'name' => 'Burnout Basilisk',
+        'type' => 'Quartz',
         'collection_image_path' => '/img/collection/gallery/Basilisk_QZ_BR_Racing_FRONT.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_QZ_BR_Racing_FRONT.jpg',
+        'product_images_path' => 'img/collection/quartz_burnout_basilisk',
         'details' => [
             [
                 'type' => 'list',
@@ -250,9 +266,11 @@ return [
         ],
     ],
     [
-        'name' => 'Quartz Chronograph (White)',
+        'name' => 'Bone White Basilisk',
+        'type' => 'Quartz',
         'collection_image_path' => '/img/collection/gallery/Basilisk_QZ_BR_White_FRONT.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_QZ_BR_White_FRONT.jpg',
+        'product_images_path' => 'img/collection/quartz_bone_white_basilisk',
         'details' => [
             [
                 'type' => 'list',

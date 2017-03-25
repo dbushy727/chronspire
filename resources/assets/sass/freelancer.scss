@@ -68,10 +68,7 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 header {
-  text-align: center;
-  background: url('../img/night_dial.jpg') center top no-repeat;
-  background-size: cover;
-  color: white;
+  margin-top: 75px;
 }
 header .container {
   padding-top: 100px;
@@ -186,7 +183,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  // padding: 100px 0;
 }
 section h2 {
   margin: 0;
@@ -202,7 +199,7 @@ section.about {
 }
 @media (max-width: 767px) {
   section {
-    padding: 75px 0;
+    // padding: 75px 0;
   }
   section.first {
     padding-top: 75px;
@@ -215,11 +212,11 @@ section.about {
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
+  max-width: 200px;
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: rgba(25, 165, 31, 0.7);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -531,10 +528,6 @@ body::-moz-selection {
   background: #000;
 }
 
-#packaging-banner {
-  background: url('../img/BOX_Nighttime.jpg') center fixed;
-}
-
 #header-image {
   width: 35%;
 }
@@ -551,3 +544,23 @@ body::-moz-selection {
 .portfolio-modal {
   margin-top: 3em;
 }
+
+.splash_image {
+  width: 100%;
+}
+
+.collection {
+  margin-bottom: 3em;
+}
+.section-heading {
+  margin-top: 5em;
+}
+.separator {
+  padding: 3em;
+}
+
+@import 'product';
+@import 'features';
+@import 'banner';
+@import 'gallery';
+@import 'subscribe';

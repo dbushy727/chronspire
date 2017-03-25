@@ -10,9 +10,9 @@ class ProductController extends Controller
 {
     public function show($slug)
     {
-        $product = Product::where('slug', $slug)->first();
-
-        if (!$product) {
+        try {
+            $product = Product::where('slug', $slug)->firstOrFail();
+        } catch (\Exception $e) {
             return redirect('/');
         }
 
@@ -26,6 +26,19 @@ class ProductController extends Controller
             'type' => 'paragraph',
         ])->get();
 
-        return view('product', compact('product', 'list_details', 'paragraph_details'));
+        $images = $this->getImages($product);
+
+        return view('product', compact('product', 'list_details', 'paragraph_details', 'images'));
+    }
+
+    protected function getImages($product)
+    {
+        return collect(
+            scandir(public_path($product->product_images_path))
+        )->filter(function ($file) {
+            return in_array(pathinfo($file, PATHINFO_EXTENSION), ['jpg', 'png']);
+        })->map(function ($file) use ($product) {
+            return "/{$product->product_images_path}/{$file}";
+        });
     }
 }

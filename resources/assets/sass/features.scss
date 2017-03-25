@@ -1,0 +1,16 @@
+.features {
+
+    background: #000;
+
+    img {
+        display: inline-block;
+        width: 49%;
+        margin: 0 auto;
+    }
+
+    @media(max-width: 767px) {
+        img { width: 100% }
+    }
+}
+
+.box img { width: 100%; }

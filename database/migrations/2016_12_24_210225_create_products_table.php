@@ -17,9 +17,10 @@ class CreateProductsTable extends Migration
             $table->increments('id');
             $table->string('slug')->unique();
             $table->string('name');
+            $table->enum('type', ['Quartz', 'Automatic']);
             $table->string('collection_image_path');
             $table->string('detail_image_path');
-
+            $table->string('product_images_path');
             $table->timestamps();
         });
     }

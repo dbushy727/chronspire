@@ -65,7 +65,7 @@
     });
 
     // launch subscribe modal
-    $('#subscribeModal').modal();
+    // $('#subscribeModal').modal();
 
     // Floating label headings for the contact form
     $(function() {

@@ -7,13 +7,14 @@
                         <h2>{{$product->name}}</h2>
                         <hr class="star-primary">
                 </div>
-                <div class="col-lg-6">
-                    <div class="modal-body">
-                        <img src="{{$product->detail_image_path}}" class="img-responsive img-centered" alt="{{$product->name}}">
-                    </div>
+                <div class="col-lg-4 col-lg-offset-1">
+                    <div class="main-image"><img src="{{$product->detail_image_path}}" class="img-responsive img-centered" alt="{{$product->name}}"></div>
+                    @foreach($images as $image)
+                    <div class="supporting-image"><img src="{{$image}}" class="img-responsive img-centered"></div>
+                    @endforeach
                 </div>
-                <div class="col-lg-6">
-                    <div class="modal-body">
+                <div class="col-lg-6 col-lg-offset-1">
+                    <div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4>Details</h4>

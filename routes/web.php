@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Http\Request;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,9 +14,27 @@
 */
 
 Route::get('/', function () {
-    $watches = app('App\Product')->all();
-    return view('home', compact('watches'));
+    $watches = [
+        'Basilisk Quartz Chrono Collection'           => app('App\Product')->where('type', 'Quartz')->get(),
+        'Basilisk Automatic GMT Dual-Time Collection' => app('App\Product')->where('type', 'Automatic')->get(),
+    ];
+
+    $gallery = collect(scandir(public_path('img/gallery')))->filter(function ($file) {
+        return in_array(pathinfo($file, PATHINFO_EXTENSION), ['jpg', 'png']);
+    });
+
+    return view('home', compact('watches', 'gallery'));
 });
+
+Route::get('/images/{image}', function ($image, Request $request) {
+    $server = League\Glide\ServerFactory::create([
+        'source' => public_path('img'),
+        'cache' => public_path('img/cache'),
+    ]);
+
+    // But, a better approach is to use information from the request
+    $server->outputImage($image, $request->all());
+})->where('image', '.*');
 
 Route::post('/subscribers', 'SubscriberController@create');
 
