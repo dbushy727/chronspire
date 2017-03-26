@@ -624,7 +624,7 @@ body::-moz-selection {
 
 #logo {
   width: 6em;
-  padding: 1em 0.5em;
+  padding: 0.5em;
 }
 
 .portfolio-modal {
@@ -657,20 +657,25 @@ body::-moz-selection {
   margin-bottom: 20px;
 }
 
+#mainNav {
+  padding: 0;
+}
+
 #subNav {
-  top: 109px;
+  top: 90px;
   background: #373737;
   font-weight: 300;
+  padding: 0;
 }
 
 .page-wrapper {
   position: relative;
-  margin-top: 110px;
+  margin-top: 90px;
 }
 
 @media (max-width: 994px) {
   .page-wrapper {
-    margin-top: 85px;
+    margin-top: 75px;
   }
   #subNav {
     display: none;
