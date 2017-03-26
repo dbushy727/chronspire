@@ -738,10 +738,6 @@ body::-moz-selection {
   padding: 0;
 }
 
-#subscribe {
-  background: #ececec;
-}
-
 .mission {
   background: url("/images/gallery/IMG_20170201_074042_645.jpg") center;
 }
