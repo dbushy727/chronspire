@@ -16,3 +16,9 @@
     background: url('../images/white-skeleton-drama.jpg?w=1200') center fixed;
     background-position-y: -100px;
 }
+
+@media(max-width: 500px) {
+    .banner {
+        display: none;
+    }
+}

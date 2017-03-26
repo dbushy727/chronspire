@@ -728,6 +728,12 @@ body::-moz-selection {
   background-position-y: -100px;
 }
 
+@media (max-width: 500px) {
+  .banner {
+    display: none;
+  }
+}
+
 .gallery-item {
   padding: 0;
 }
