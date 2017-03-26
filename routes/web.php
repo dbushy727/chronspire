@@ -38,6 +38,8 @@ Route::get('/images/{image}', function ($image, Request $request) {
 
 Route::post('/subscribers', 'SubscriberController@create');
 
+Route::post('/contact', 'SubscriberController@contact');
+
 Route::get('/collection/{product_id}', 'ProductController@show');
 
 Route::get('/mission', function () {

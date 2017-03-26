@@ -42,12 +42,34 @@
         });
     };
 
+    var sendContactMessage = function (name, email, message, token) {
+        $.ajax({
+            url: '/contact',
+            method: 'POST',
+            data: {
+                name: name,
+                email: email,
+                message: message,
+                "_token": token
+            }
+        });
+    };
+
     $('#saveSubscriberButton').click(function ($e) {
         $e.preventDefault();
         var token = $('#subscribeForm').children('input[name=_token]').val();
         saveSubscriber($('#name').val(), $('#email').val(), token);
 
         $('#subscribeForm').hide();
+        $('#thank-you').show();
+    });
+
+    $('#sendContactMessageButton').click(function ($e) {
+        console.log('sending message');
+        $e.preventDefault();
+        var token = $('#contactForm').children('input[name=_token]').val();
+        sendContactMessage($('#name').val(), $('#email').val(), $('#message').val(), token);
+        $('#contactForm').hide();
         $('#thank-you').show();
     });
 
