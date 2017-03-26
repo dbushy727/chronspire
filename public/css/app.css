@@ -694,6 +694,24 @@ body::-moz-selection {
   margin-left: 1em;
 }
 
+#product .panel-body {
+  background: #000;
+}
+
+.main-image {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.supporting-image {
+  cursor: pointer;
+}
+
+.modal-image {
+  width: 25em;
+  margin: 0 auto;
+}
+
 .features {
   background: #000;
 }

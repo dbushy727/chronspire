@@ -10,27 +10,47 @@ return [
         'details' => [
             [
                 'type' => 'list',
-                'body' => '1.28 Blah',
+                'body' => 'Movement: Sellita 330-1',
             ],
             [
                 'type' => 'list',
-                'body' => 'Lorem ipsum dolor sit amet',
+                'body' => 'Movement Description: Swiss Movement, Automatic, GMT/Dual Time, Frequency 28,800 A/h (4 Hz), 42 Hour Power Reserve, 25 Jewels',
             ],
             [
                 'type' => 'list',
-                'body' => 'Aut exercitationem id repudiandae a voluptas quam dolorem delectus nesciunt',
+                'body' => 'Functions: Hour, Minute, Second, Date, 24h GMT/Dual Time Zone',
             ],
             [
                 'type' => 'list',
-                'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum cum ullam commodi culpa, necessitatibus nemo sapiente minima, impedit fugiat est atque dolor aut repellendus quisquam, sit inventore labore vel quibusdam?',
+                'body' => 'Case: Titanium',
             ],
             [
-                'type' => 'paragraph',
-                'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eum, vitae sit voluptate temporibus dolor, veniam eveniet, assumenda reprehenderit debitis ut voluptatum cupiditate, eius repellendus iusto fuga corrupti illo qui!',
+                'type' => 'list',
+                'body' => 'Diameter: 45mm',
             ],
             [
-                'type' => 'paragraph',
-                'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium dolorem, illo voluptatum odio corporis possimus quod in, adipisci officia accusantium quae consequuntur quaerat nemo voluptatibus dignissimos. Nesciunt ad, fugiat voluptatibus.',
+                'type' => 'list',
+                'body' => 'Case Height: 11mm',
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Water Resistance: 5 ATM - Water Tested to 50 meters'
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Plating: Black Version is Plated using a DLC Process'
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Front Crystal: Sapphire Crystal with Anti Reflective Coating on the Inside'
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Dial Description: Skeletonized and Darkened Sapphire Crystal Dial with Applied Top Layer'
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Hour Markers: Silver or Black Sticks with GRADE A Swiss Super-LumiNova Fill, GREEN Emission'
             ],
         ],
     ],
@@ -43,27 +63,47 @@ return [
         'details' => [
             [
                 'type' => 'list',
-                'body' => '1.28 Blah',
+                'body' => 'Movement: Sellita 330-1',
             ],
             [
                 'type' => 'list',
-                'body' => 'Lorem ipsum dolor sit amet',
+                'body' => 'Movement Description: Swiss Movement, Automatic, GMT/Dual Time, Frequency 28,800 A/h (4 Hz), 42 Hour Power Reserve, 25 Jewels',
             ],
             [
                 'type' => 'list',
-                'body' => 'Aut exercitationem id repudiandae a voluptas quam dolorem delectus nesciunt',
+                'body' => 'Functions: Hour, Minute, Second, Date, 24h GMT/Dual Time Zone',
             ],
             [
                 'type' => 'list',
-                'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum cum ullam commodi culpa, necessitatibus nemo sapiente minima, impedit fugiat est atque dolor aut repellendus quisquam, sit inventore labore vel quibusdam?',
+                'body' => 'Case: Titanium',
             ],
             [
-                'type' => 'paragraph',
-                'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eum, vitae sit voluptate temporibus dolor, veniam eveniet, assumenda reprehenderit debitis ut voluptatum cupiditate, eius repellendus iusto fuga corrupti illo qui!',
+                'type' => 'list',
+                'body' => 'Diameter: 45mm',
             ],
             [
-                'type' => 'paragraph',
-                'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium dolorem, illo voluptatum odio corporis possimus quod in, adipisci officia accusantium quae consequuntur quaerat nemo voluptatibus dignissimos. Nesciunt ad, fugiat voluptatibus.',
+                'type' => 'list',
+                'body' => 'Case Height: 11mm',
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Water Resistance: 5 ATM - Water Tested to 50 meters'
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Plating: Black Version is Plated using a DLC Process'
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Front Crystal: Sapphire Crystal with Anti Reflective Coating on the Inside'
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Dial Description: Skeletonized and Darkened Sapphire Crystal Dial with Applied Top Layer'
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Hour Markers: Silver or Black Sticks with GRADE A Swiss Super-LumiNova Fill, GREEN Emission'
             ],
         ],
     ],
@@ -76,27 +116,47 @@ return [
         'details' => [
             [
                 'type' => 'list',
-                'body' => '1.28 Blah',
+                'body' => 'Movement: Sellita 330-1',
             ],
             [
                 'type' => 'list',
-                'body' => 'Lorem ipsum dolor sit amet',
+                'body' => 'Movement Description: Swiss Movement, Automatic, GMT/Dual Time, Frequency 28,800 A/h (4 Hz), 42 Hour Power Reserve, 25 Jewels',
             ],
             [
                 'type' => 'list',
-                'body' => 'Aut exercitationem id repudiandae a voluptas quam dolorem delectus nesciunt',
+                'body' => 'Functions: Hour, Minute, Second, Date, 24h GMT/Dual Time Zone',
             ],
             [
                 'type' => 'list',
-                'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum cum ullam commodi culpa, necessitatibus nemo sapiente minima, impedit fugiat est atque dolor aut repellendus quisquam, sit inventore labore vel quibusdam?',
+                'body' => 'Case: Titanium',
             ],
             [
-                'type' => 'paragraph',
-                'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eum, vitae sit voluptate temporibus dolor, veniam eveniet, assumenda reprehenderit debitis ut voluptatum cupiditate, eius repellendus iusto fuga corrupti illo qui!',
+                'type' => 'list',
+                'body' => 'Diameter: 45mm',
             ],
             [
-                'type' => 'paragraph',
-                'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium dolorem, illo voluptatum odio corporis possimus quod in, adipisci officia accusantium quae consequuntur quaerat nemo voluptatibus dignissimos. Nesciunt ad, fugiat voluptatibus.',
+                'type' => 'list',
+                'body' => 'Case Height: 11mm',
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Water Resistance: 5 ATM - Water Tested to 50 meters'
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Plating: Black Version is Plated using a DLC Process'
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Front Crystal: Sapphire Crystal with Anti Reflective Coating on the Inside'
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Dial Description: Skeletonized and Darkened Sapphire Crystal Dial with Applied Top Layer'
+            ],
+            [
+                'type' => 'list',
+                'body' => 'Hour Markers: Silver or Black Sticks with GRADE A Swiss Super-LumiNova Fill, GREEN Emission'
             ],
         ],
     ],

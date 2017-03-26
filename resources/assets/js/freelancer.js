@@ -129,4 +129,11 @@
 
     });
 
+    $('#product .supporting-image').click(function ($e) {
+        $e.preventDefault();
+        var imageSrc = $(this).find('img').attr('src');
+        $('#showSupportingImageModal img').attr('src', imageSrc);
+        $('#showSupportingImageModal').modal();
+    });
+
 })(jQuery); // End of use strict
