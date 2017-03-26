@@ -1,4 +1,16 @@
-<!-- jQuery -->
+    <!-- Footer -->
+    <footer class="text-center footer">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Chronspire {{ Carbon\Carbon::now()->format('Y')}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -11,7 +23,5 @@
 
     <!-- Theme JavaScript -->
     <script src="/js/all.js"></script>
-
 </body>
-
 </html>

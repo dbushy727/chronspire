@@ -45,9 +45,6 @@
                         <a href="#gallery">Gallery</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About Us</a>
-                    </li>
-                    <li class="page-scroll">
                         <a href="#subscribe">Subscribe</a>
                     </li>
                 </ul>

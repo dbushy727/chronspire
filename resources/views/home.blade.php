@@ -46,10 +46,6 @@
             @include('gallery')
         </section>
 
-        <section id="about">
-            @include('about_us')
-        </section>
-
         <div class="separator"></div>
 
         <!-- Contact Section -->
@@ -60,18 +56,7 @@
 
         </section>
 
-        <!-- Footer -->
-        <footer class="text-center">
-            <div class="footer-below">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            Copyright &copy; Chronspire {{ Carbon\Carbon::now()->format('Y')}}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+
 
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
         <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
@@ -116,5 +101,5 @@
             </div><!-- /.modal-content -->
           </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
+        @include('footer')
     </div>
-    @include('footer')

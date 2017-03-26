@@ -39,3 +39,23 @@ Route::get('/images/{image}', function ($image, Request $request) {
 Route::post('/subscribers', 'SubscriberController@create');
 
 Route::get('/collection/{product_id}', 'ProductController@show');
+
+Route::get('/mission', function () {
+    return view('mission');
+});
+
+Route::get('/basilisk', function () {
+    return view('basilisk');
+});
+
+Route::get('/founder', function () {
+    return view('founder');
+});
+
+Route::get('/about-us', function () {
+    return view('about_us');
+});
+
+Route::get('/contact-us', function () {
+    return view('contact');
+});

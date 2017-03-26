@@ -347,6 +347,13 @@ footer {
   color: white;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #000;
+}
+
 footer h3 {
   margin-bottom: 30px;
 }
@@ -362,7 +369,6 @@ footer .footer-col {
 
 footer .footer-below {
   padding: 25px 0;
-  background-color: #000;
 }
 
 .btn-outline {
@@ -712,6 +718,11 @@ body::-moz-selection {
 
 #subscribe {
   background: #ececec;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */
