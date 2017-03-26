@@ -712,6 +712,10 @@ body::-moz-selection {
   margin: 0 auto;
 }
 
+.modal-header {
+  border: 0;
+}
+
 .features {
   background: #000;
 }
