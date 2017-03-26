@@ -21,10 +21,7 @@
                     <a href="/basilisk">The Basilisk</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="/founder">About The Founder</a>
-                </li>
-                <li class="page-scroll">
-                    <a href="/about-us">About Us</a>
+                    <a href="/about">Meet The Founder</a>
                 </li>
                 <li class="page-scroll">
                     <a href="/contact-us">Contact Us</a>

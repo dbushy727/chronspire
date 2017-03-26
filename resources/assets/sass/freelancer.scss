@@ -581,14 +581,15 @@ body::-moz-selection {
 
 .page-wrapper {
   position: relative;
-  top: 100px;
+  margin-top: 110px;
 }
+
 @import 'product';
 @import 'features';
 @import 'banner';
 @import 'gallery';
 @import 'subscribe';
-
+@import 'pages';
 
 html {
   position: relative;

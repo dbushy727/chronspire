@@ -48,11 +48,7 @@ Route::get('/basilisk', function () {
     return view('basilisk');
 });
 
-Route::get('/founder', function () {
-    return view('founder');
-});
-
-Route::get('/about-us', function () {
+Route::get('/about', function () {
     return view('about_us');
 });
 
