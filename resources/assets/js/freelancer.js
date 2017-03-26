@@ -42,7 +42,7 @@
         });
     };
 
-    var sendContactMessage = function (name, email, message, token) {
+    var sendContactMessage = function (name, email, message, subscribe, token) {
         $.ajax({
             url: '/contact',
             method: 'POST',
@@ -50,6 +50,7 @@
                 name: name,
                 email: email,
                 message: message,
+                subscribe: subscribe,
                 "_token": token
             }
         });
@@ -68,7 +69,7 @@
         console.log('sending message');
         $e.preventDefault();
         var token = $('#contactForm').children('input[name=_token]').val();
-        sendContactMessage($('#name').val(), $('#email').val(), $('#message').val(), token);
+        sendContactMessage($('#name').val(), $('#email').val(), $('#message').val(), $('#subscribe').prop('checked'), token);
         $('#contactForm').hide();
         $('#thank-you').show();
     });

@@ -28,7 +28,7 @@ class SubscriberController extends Controller
 
         \Mail::to('d.bushkanets@gmail.com')->send($message);
 
-        if ($request->get('subscribe')) {
+        if ($request->get('subscribe') == "true") {
             $this->create($request);
         }
 
