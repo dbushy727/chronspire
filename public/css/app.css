@@ -154,6 +154,7 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-nav li a {
   color: white;
+  font-size: 0.9em;
 }
 
 .navbar-custom .navbar-nav li a:hover {
@@ -667,6 +668,21 @@ body::-moz-selection {
   margin-top: 110px;
 }
 
+@media (max-width: 994px) {
+  .page-wrapper {
+    margin-top: 85px;
+  }
+  #subNav {
+    display: none;
+  }
+}
+
+@media (max-width: 994px) and (min-width: 768px) {
+  .container {
+    width: 800px;
+  }
+}
+
 .supporting-image {
   display: inline-block;
   width: 3em;
@@ -732,12 +748,16 @@ body::-moz-selection {
   background: url("/images/gallery/IMG_20170112_063747_864.jpg") center;
 }
 
-.mission, .about-us, .basilisk {
+.tick {
+  background: url("/images/gallery/IMG_20170212_211813_161.jpg") center;
+}
+
+.mission, .about-us, .basilisk, .tick {
   background-size: cover;
   color: #ececec;
 }
 
-.mission .container-fluid, .about-us .container-fluid, .basilisk .container-fluid {
+.mission .container-fluid, .about-us .container-fluid, .basilisk .container-fluid, .tick .container-fluid {
   background-color: rgba(0, 0, 0, 0.7);
 }
 

@@ -55,3 +55,7 @@ Route::get('/about', function () {
 Route::get('/contact-us', function () {
     return view('contact');
 });
+
+Route::get('/what-makes-us-tick', function () {
+    return view('tick');
+});

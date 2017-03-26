@@ -131,6 +131,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a {
   color: white;
+  font-size: 0.9em;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: rgb(25, 165, 31);
@@ -583,6 +584,24 @@ body::-moz-selection {
   position: relative;
   margin-top: 110px;
 }
+
+@media (max-width: 994px) {
+  .page-wrapper {
+    margin-top: 85px;
+  }
+
+  #subNav {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .container {
+        width: 800px;
+    }
+  }
+}
+
+
 
 @import 'product';
 @import 'features';
