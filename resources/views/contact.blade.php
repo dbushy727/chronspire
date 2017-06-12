@@ -6,6 +6,7 @@
                 <h2>Contact Us</h2>
                 <hr class="star-primary">
             </div>
+
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
                     <p>Our work is our passion, and we love to discuss our watches! </p> <br>
