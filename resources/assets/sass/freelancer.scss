@@ -67,9 +67,7 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
-header {
-  margin-top: 75px;
-}
+
 header .container {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -554,6 +552,8 @@ body::-moz-selection {
 
 .splash_image {
   width: 100%;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .collection {
