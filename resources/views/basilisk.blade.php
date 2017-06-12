@@ -13,7 +13,7 @@
                     </p>
                     <br>
                     <p>
-                        The design of The Basilisk Collection by Chronspire was inspired by the famous Basilisk statues found throughout the city of Basel. From the ridged case in bare, or black DLC-clad titanium that’s reminiscent of the creature’s spine, to the articulated rubber strap or titanium bracelet which mimics the Basilisk’s sinuous body, to the green segmented GMT hand on the automatic version that looks like the beast’s tail.
+                        The design of The Basilisk Collection by Chronspire was inspired by the famous Basilisk statues found throughout the city of Basel. From the ridged case in bare, or black DLC-clad titanium that’s reminiscent of the creature’s spine, to the articulated silicone strap or titanium bracelet which mimics the Basilisk’s sinuous body, to the green segmented GMT hand on the automatic version that looks like the beast’s tail.
                     </p>
                     <br>
                     <p>

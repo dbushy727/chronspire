@@ -16,11 +16,8 @@
                 <div class="col-lg-6 col-lg-offset-1">
                     <div>
                         <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4>Details</h4>
-                            </div>
                             <div class="panel-body">
-                                <img src="/images/watch-specs.jpg?w=800" class="img-responsive">
+                                <img src="/images/watch-specs2.jpg?w=800" class="img-responsive">
                             </div>
                         </div>
                     </div>

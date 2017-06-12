@@ -46,7 +46,7 @@
                             <div class="row control-group">
                                 <div class="form-group col-xs-12">
                                     <input type="checkbox" name="subscribe" id="subscribe">
-                                    &nbsp; Check this box if you would like to subscribe.
+                                    &nbsp; Check this box if you'd like to subscribe.
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>

@@ -13,7 +13,7 @@
                     <a href="/collection/{{$watch->slug}}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                {{-- <i class="fa fa-search-plus fa-3x"></i> --}}
+                                <span>{{$watch->name}}</span>
                             </div>
                         </div>
                         <img src="{{$watch->collection_image_path}}" class="img-responsive" alt="{{$watch->name}}">

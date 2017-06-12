@@ -12,9 +12,9 @@
                         At Chronspire, we are committed to creating legendary timepieces,
                         the kind that honor the past while looking towards the future.
                         We believe that every detail, no matter how small, is vital,
-                        and that every facet of a design has to be absolutely perfect
-                        before we allow it to carry the Chronspire name. The resulting watches are
-                        intricate, unique, and, in our opinion, absolutely perfect.
+                        and that every facet of a design has to be flawless before we allow
+                        it to carry the Chronspire name. The resulting watches are intricate,
+                        unique, and, in our opinion, absolutely perfect.
                     </p>
                 </div>
             </div>

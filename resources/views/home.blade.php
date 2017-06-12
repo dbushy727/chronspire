@@ -7,7 +7,7 @@
         <header>
             <div class="container-fluid">
                 <div class="row">
-                    <img class="splash_image" src="/img/main.jpg" alt="Basilisk">
+                    <img class="splash_image" src="/img/main2.jpg" alt="Basilisk">
                 </div>
             </div>
         </header>

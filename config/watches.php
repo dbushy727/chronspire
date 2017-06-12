@@ -2,7 +2,7 @@
 
 return [
     [
-        'name' => 'Black Basilisk',
+        'name' => 'Black Skeleton Basilisk',
         'type' => 'Automatic',
         'collection_image_path' => '/img/collection/gallery/Basilisk_Auto_Brac_Black_Front.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_Auto_Brac_Black_Front.jpg',
@@ -55,7 +55,7 @@ return [
         ],
     ],
     [
-        'name' => 'Blue Basilisk',
+        'name' => 'Blue Skeleton Basilisk',
         'type' => 'Automatic',
         'collection_image_path' => '/img/collection/gallery/Basilisk_Auto_Brac_Blue_Front.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_Auto_Brac_Blue_Front.jpg',
@@ -108,7 +108,7 @@ return [
         ],
     ],
     [
-        'name' => 'Bone White Basilisk',
+        'name' => 'White Skeleton Basilisk',
         'type' => 'Automatic',
         'collection_image_path' => '/img/collection/gallery/Basilisk_Auto_Brac_White_Front.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_Auto_Brac_White_Front.jpg',
@@ -161,7 +161,7 @@ return [
         ],
     ],
     [
-        'name' => 'Black Out Basilisk',
+        'name' => 'Blackout Basilisk',
         'type' => 'Quartz',
         'collection_image_path' => '/img/collection/gallery/Basilisk_QZ_BR_Black_FRONT.jpg',
         'detail_image_path' => '/img/collection/detail/Basilisk_QZ_BR_Black_FRONT.jpg',
