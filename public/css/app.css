@@ -81,9 +81,6 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 
-header {
-  margin-top: 75px;
-}
 
 header .container {
   padding-top: 100px;
@@ -633,6 +630,8 @@ body::-moz-selection {
 
 .splash_image {
   width: 100%;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .collection {
@@ -732,7 +731,7 @@ body::-moz-selection {
   }
 }
 
-.box img {
+.box img, #intro img {
   width: 100%;
 }
 
@@ -742,6 +741,11 @@ body::-moz-selection {
 
 #first-banner {
   background: url("../images/black-skeleton-drama.jpg?w=1200") center fixed;
+  background-position-y: -100px;
+}
+
+#intro-banner {
+  background: url("../images/gallery/IMG_20170110_121920_175.jpg?w=1500") center fixed;
   background-position-y: -100px;
 }
 

@@ -7,10 +7,25 @@
         <header>
             <div class="container-fluid">
                 <div class="row">
-                    <img class="splash_image" src="/img/main2.jpg" alt="Basilisk">
+                    <a href="https://www.kickstarter.com/projects/1510550723/406239520?token=6bffbf56"><img class="splash_image" src="/img/kickstarter-landing.png" alt="Kickstarter"></a>
                 </div>
             </div>
         </header>
+
+        <section class="banner" id="intro-banner">
+            <div class="container">
+                <div class="row"></div>
+            </div>
+        </section>
+
+        <section id="intro">
+            <div class="container-fluid">
+                <div class="row">
+                    <img class="intro_image" src="/img/main.jpg" alt="Basilisk">
+                </div>
+            </div>
+        </section>
+
 
         <section id="collection">
             @include('portfolio')
