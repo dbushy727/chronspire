@@ -592,7 +592,7 @@ body::-moz-selection {
 
 @media (max-width: 994px) {
   .page-wrapper {
-    margin-top: 75px;
+    margin-top: 40px;
   }
 
   #subNav {
@@ -606,7 +606,13 @@ body::-moz-selection {
   }
 }
 
+@media (max-width: 768px) {
 
+  .page-wrapper {
+    margin-top: 25px;
+  }
+
+}
 
 @import 'product';
 @import 'features';
