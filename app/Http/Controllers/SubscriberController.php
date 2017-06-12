@@ -26,7 +26,7 @@ class SubscriberController extends Controller
     {
         $message = new ContactMessage($request->get('name'), $request->get('email'), $request->get('message'));
 
-        \Mail::to('dbushy727@gmail.com')->send($message);
+        \Mail::to('info@chronspire.com')->send($message);
 
         if ($request->get('subscribe') == "true") {
             $this->create($request);
